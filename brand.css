@@ -1,0 +1,113 @@
+.rows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    justify-content: center;}
+.f-s-cls .tabs-inner-secs a {
+    overflow: hidden;
+}
+@media only screen and (max-width:892px){.f-s-cls .tabs-inner-secs a {
+    overflow: hidden;
+}}
+
+@media only screen and (max-width:892px) {.tabs-inner-secs{
+padding-right: 20px;
+}}
+
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+@media screen only screen (max-width: 432px){.f-s-cls .tabs-inner-secs a img {
+    width: 80%!important;
+}}
+@media screen and (max-width: 892px){ .grey-bg {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+}}
+@media screen and (min-width: 992px){ .grey-bg {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+}}
+@media only screen and (max-width: 700px)
+{.tabs-inner-secs {
+    padding-right: 10px;
+}}
+@media screen and (max-width: 991px)
+{.f-s-cls .tabs-inner-secs a img {
+    object-fit: contain;
+    max-height: 200px!important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}}
+@media screen and (max-width: 891px){.tabs-inner-secs a {
+    padding: 0px;
+    border-radius: 8px;
+}}
+@media screen and (max-width: 780px){.tabs-inner-secs a:hover {
+    background: 0 0;
+    border-color: #e34c32;
+}}
+@media screen and (min-width: 992px){.tabs-inner-secs a:hover {
+    background: 0 0;
+    border-color: #e34c32;
+}}
+@media screen and (min-width: 992px){.tabs-inner-secs a {
+    padding: 20px;
+    border-radius: 8px;
+}}
+@media screen and (min-width: 992px){.f-s-cls .tabs-inner-secs a img {
+    max-height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}}
+@media screen and (max-width: 991px)
+{.f-s-cls .tabs-inner-sec a {
+    min-height: 160px;
+    max-height: 160px;
+}}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+    @media screen and (max-width: 767px)
+{.btn-search {
+    width: 40px;
+    height: 34px;
+    padding: 4px;
+}}
+
+ @media screen and (max-width: 767px){ #searchbox {
+ margin-bottom: 20px;
+    margin-left: 60px;
+}}
+
+ @media screen and (min-width: 992px){ #searchbox {
+ margin-bottom: 20px;
+    margin-left: 90px;
+}}
+.btn-search {
+    border: 1px solid #dedede;
+    margin-left: -1px;
+    background-color: #f5f6f7;
+    border-radius: 0 30px 30px 0;
+    width: 45px;
+    height: 43px;
+}
+.fa-search:before {
+    content: "\f002";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+}
